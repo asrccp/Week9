@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>a Jacket Order Form by: Amiri S. Rivera</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h2>Jacket Order Form</h2>
+
+  <form>
+    <fieldset>
+      <legend>Customer Information</legend>
+
+      <label for="name">Your Name:</label><br>
+      <input type="text" id="name" name="name" value="Name Name"><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" value="student@student.ccp.edu">
+    </fieldset>
+
+    <fieldset>
+      <legend>Jacket Color</legend>
+      <p>What color of jacket would you like?</p>
+
+      <input type="radio" id="red" name="color" value="Red">
+      <label for="red">Red</label><br>
+
+      <input type="radio" id="blue" name="color" value="Blue">
+      <label for="blue">Blue</label><br>
+
+      <input type="radio" id="black" name="color" value="Black">
+      <label for="black">Black</label><br>
+
+      <input type="radio" id="purple" name="color" value="Purple">
+      <label for="purple">Purple</label><br><br>
+
+      <img id="redImage" src="https://images.pexels.com/photos/7009504/pexels-photo-7009504.jpeg" alt="Red Jacket" width="150">
+      <img id="blueImage" src="https://i.ibb.co/Qjk5Lqh3/b83e4e9a-25b7-43c0-ad6a-4dab9a63d2f2.png" alt="Blue Jacket" width="150">
+      <img id="blackImage" src="https://i.ibb.co/qYm4j1CK/b83e4e9a-25b7-43c0-ad6a-4dab9a63d2f2-2.png" alt="Black Jacket" width="150">
+      <img id="purpleImage" src="https://i.ibb.co/KpKMrmvk/b83e4e9a-25b7-43c0-ad6a-4dab9a63d2f2-1.png" alt="Purple Jacket" width="150">
+
+      <p>Photo by <a href="https://www.pexels.com/photo/a-woman-in-red-jacket-and-blue-knit-cap-holding-a-camera-7009504/" target="_blank">Tima Miroshnichenko</a></p>
+    </fieldset>
+<!--The image was from Pexels, and properly credited. I used my drawing software to edit different colors of the Jacket to make a visiual coolor selector-->
+
+    <fieldset>
+      <legend>Sizing Selection</legend>
+
+      <input type="radio" id="small" name="size" value="Small">
+      <label for="small">Small</label><br>
+
+      <input type="radio" id="medium" name="size" value="Medium">
+      <label for="medium">Medium</label><br>
+
+      <input type="radio" id="large" name="size" value="Large">
+      <label for="large">Large</label><br>
+
+      <input type="radio" id="xlarge" name="size" value="XL">
+      <label for="xlarge">Extra Large</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Pay and Order</legend>
+
+      <input type="checkbox" id="payCheckbox" name="payCheckbox">
+      <label for="payCheckbox">Pay with Imagination</label><br><br>
+
+      <input type="button" onclick="alert('Thank you for your Faux Purchase! :D')" value="Order!">
+    </fieldset>
+  </form>
+<!-- 5 Fields including Name, Email, Color, Size and Pay, along with the Submit button, dynamic images, and a comfy gradiant background!-->
+</body>
+</html>
