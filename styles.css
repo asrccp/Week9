@@ -1,12 +1,13 @@
-table {
+table,th, td {
+    width: 30%;
   border-collapse: collapse;
-  width: 100%;
+  border: 2px solid rgb(8, 78, 2);
 }
 
 table, td {
   padding: 8px;
   text-align: left;
-  border-bottom: 1px solid #ffbb62;
+  border-bottom: 1px solid #006118;
 }
 
 tr:hover {background-color: #78ffc7;}
